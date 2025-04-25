@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Fondo blanco estilo Apple */
+}
+
+.section {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+h2{
+    color: blue;
+}
+header {
+    background-color: #808080;
+    background-image: url('../IMG/header2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    background-color: #f2f2f2; /* Fondo suave para contenido */
+}
+
+footer {
+    background-color: black;
+}
+p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inicio{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin: 40px 0;
+    padding: 0 20px;
+}
+
+.item {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.item img {
+    width: 600px;
+    max-width: 90vw;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease;
+}
+
+.item img:hover {
+    transform: scale(1.05);
+}
+.ip{
+    color: #ffffff;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 26px;
+    background-color: lightgray;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: lightblue;
+}
