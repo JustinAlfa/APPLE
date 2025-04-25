@@ -14,7 +14,7 @@ h2{
 }
 header {
     background-color: #808080;
-    background-image: url('../IMG/header2.jpg');
+    background-image: url('header2.jpg');
     background-size: cover;
     background-position: center;
 }
