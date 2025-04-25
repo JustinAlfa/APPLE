@@ -8,7 +8,7 @@ body {
 
 /* Encabezado */
 .header {
-    background-image: url(../IMG/fondo2.jpg);
+    background-image: url('fondo2.jpg');
     text-align: center;
     padding: 40px 20px;
     background-color: #f8f8f8;
